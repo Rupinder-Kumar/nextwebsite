@@ -18,6 +18,7 @@ const Contact = () => {
                             >LinkedIn</a
                             >
                         </li>
+                        <li><a href="https://dribbble.com/rupinder">Dribble</a></li>
                         <li className={styles.contactItem}>
                             <a href="https://www.instagram.com/ruthless_rupinder/">Instagram</a>
                         </li>
