@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Nunito Sans', 'Helvetica', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #4a4b4f;
+  background-color: #f9ede5;
+}
+main {
+  position: relative;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

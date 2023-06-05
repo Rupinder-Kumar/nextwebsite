@@ -1,0 +1,88 @@
+.story {
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    z-index: 20;
+  }
+  .story:before {
+    position: absolute;
+    content: "";
+    background-image: url("../public/images/wave1.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    left: 0px;
+    bottom: -4px;
+    z-index: 20;
+    background-size: cover;
+  }
+  .story:after {
+    position: absolute;
+    content: "";
+    background-image: url("../public/images/pink_pic.svg");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 250px;
+    left: 0px;
+    top: 170px;
+    background-size: cover;
+    transform: rotate(180deg);
+    z-index: 0;
+    opacity: 50%;
+  }
+  .storyText h2 {
+    font-size: 26px;
+  }
+  .storyText p {
+    font-size: 24px;
+    line-height: 30px;
+    z-index: 280;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .storyImg img {
+    border: 20px solid #f7ca4a;
+    width: 100%;
+    max-width: 450px;
+  }
+  @media (min-width: 1024px) {
+    .storyText p {
+      font-size: 24px;
+      line-height: 40px;
+    }
+    .storyText h2 {
+      font-size: 40px;
+    }
+    .story {
+      display: flex;
+      padding-top: 60px;
+      flex-direction: row-reverse;
+      padding-right: 50px;
+      padding-left: 0;
+    }
+    .storyImg {
+      width: 50%;
+      position: relative;
+    }
+    .storyImg img {
+      border: 20px solid #f7ca4a;
+      position: absolute;
+      width: 450px;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      z-index: 21;
+    }
+    .storyText {
+      width: 50%;
+    }
+    .story:after {
+      width: 200px;
+      height: 270px;
+      left: 0;
+      top: -15px;
+    }
+  }
