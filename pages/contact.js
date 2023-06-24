@@ -17,7 +17,7 @@ const Contact = () => {
                             <a target="_blank" href="https://www.linkedin.com/in/rupinder-kumar-15aba176/"
                             >LinkedIn</a>
                         </li>
-                        <li><a target="_blank" href="https://dribbble.com/rupinder">Dribble</a></li>
+                        <li className={styles.contactItem}><a target="_blank" href="https://dribbble.com/rupinder">Dribble</a></li>
                         <li className={styles.contactItem}>
                             <a target="_blank" href="https://www.instagram.com/the.nomad.engineer/">Instagram</a>
                         </li>
