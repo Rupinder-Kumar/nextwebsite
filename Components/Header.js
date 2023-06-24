@@ -32,9 +32,19 @@ const Header = () => {
             rel="stylesheet"
         />
         <title>My name is Rupinder. I’m a Frontend developer with an eye for detail and a drive for quality.i stand on a sweet spot where design & code intersects.</title>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86249812-1"></script>
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86249812-1"></script> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWQF46EVMW"></script>
+<script dangerouslySetInnerHTML={{
+    __html:`
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <script dangerouslySetInnerHTML={{
+  gtag('config', 'G-ZWQF46EVMW');`}}>
+  
+</script>
+
+        {/* <script dangerouslySetInnerHTML={{
             __html:`
             window.dataLayer = window.dataLayer || [];
 
@@ -43,9 +53,9 @@ const Header = () => {
             gtag('js', new Date());
 
             gtag('config', 'UA-86249812-1');`
-        }} />
+        }} /> */}
 
-    </Head>
+    </Head >
 }
 
 export default Header;
