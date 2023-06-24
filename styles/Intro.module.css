@@ -8,7 +8,8 @@
   }
   .intro img {
     width: 100%;
-    height: auto;
+    height: 90vh;
+    object-fit: cover;
     border: 20px solid #f7ca4a;
   }
   .intro p {
@@ -49,7 +50,8 @@
     }
     .intro img {
       width: 60%;
-      height: auto;
+      height: 90vh;
+      object-fit: cover;
       border: 20px solid #f7ca4a;
     }
   }

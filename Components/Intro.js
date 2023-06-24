@@ -11,7 +11,7 @@ const Intro = () => {
                         showcase my projects.
                     </p>
                 </div>
-                <img alt="portrait" src="images/me.jpg" />
+                <img alt="portrait" src="images/profile-min.jpg" />
             </div>
         </section>
     )

@@ -23,7 +23,7 @@ const Navbar = () => {
                     className={isNavVisible? `${styles.classOpen} ${styles.menu}` : styles.menu}
                 >
                     <li className={styles.navMenu}><Link href="/">Home</Link></li>
-                    <li className={styles.navMenu}><Link href="/projects">Projects</Link></li>
+                    {/* <li className={styles.navMenu}><Link href="/projects">Projects</Link></li> */}
                     <li className={styles.navMenu}><Link href="/contact">Contact</Link></li>
                 </ul>
             </nav>

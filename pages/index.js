@@ -1,7 +1,7 @@
 import Intro from "../Components/Intro";
 import Story from "../Components/Story";
 import Skills from "../Components/Skills";
-const Home = () => {
+const Index = () => {
   return (
     <>
     <Intro/>
@@ -11,4 +11,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Index;
